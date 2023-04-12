@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#EEEFF1;
+}
+.menu-btn{
+    display: none;
+}
+header{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    padding:30px 30px;
+    align-items: center;
+    position: fixed;
+}
+.nav-bar{
+    z-index: 10;
+    pointer-events: all;
+}
+.logo a{
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    width: 20px;
+}
+.nav-bar ul li{
+    display:inline-block ;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    padding:10px 10px;
+    color:black;
+}
+.nav-bar ul li .work-btn{
+    padding:15px 30px;
+    color: white;
+    border-radius: 5px;
+    background-color:black;
+    cursor: pointer;
+    border: none;
+}
+.about{
+    width:100%;
+    position: relative;
+    top:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80vh;
+    transition: all .7s;
+    flex-wrap: wrap;
+}
+.about img{
+    width:30%;
+    margin-left:10%;
+    object-fit: cover;
+    border-radius: 10px;
+    min-width:200px;
+}
+.content{
+    width:55%;
+    min-width:350px;
+    float: right;
+}
+.primary-txt{
+    font-size:4.5em;
+}
+.content p{
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 200;
+    width:90%;
+}
+@media (max-width:650px){
+    .logo{
+        text-align: center;
+        margin:auto;
+    }
+    .about img{
+        margin: auto;
+        min-width:300px;
+    }
+    .content p{
+        text-align: center;
+        margin:auto;
+        font-size: 1em;
+        font-weight: 200;
+    }
+    .content{
+        width:100%;
+    }
+    .primary-txt{
+        text-align: center;
+    }
+}
+@media (max-width:912px){
+    .nav-bar{
+       position:absolute ;
+       top:5rem;
+       left: 0;
+       width: 100%;
+       height:150px;
+       z-index: 10;
+       trans3t4ta
+    }
+    .nav-bar ul li{
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .logo{
+        margin:auto;
+        font-size:30px ;
+    }
+    .menu-btn{
+        display: block;
+    }
+
+}
+.carrer-section{
+    height:100vh;
+    width: 100%;
+    position: relative;
+    top:8rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper-title{
+    font-size:3rem;
+    display: block;
+    margin-bottom:1.5rem ;
+}
+.wrapper-content{
+    top:10rem;
+    width:60%;
+    min-width:450px;
+    padding:20px 50px;
+    margin: auto;
+}
+.wrapper-content p{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.wrapper-skills{
+    width:35%;
+    margin:auto;
+    min-width:300px;
+}
+.wrapper-skills ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrapper-skills ul li{
+    list-style-type: none;
+    padding:10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin:5px 0px;
+    letter-spacing: 1px;
+    font-size:1rem ;
+    text-align: left;
+}
+.wrapper-skills ul li:hover{
+   color: #EEEFF1;
+   background-color: black;
+   border: 1px solid white;
+   cursor: pointer;
+   transition: all .5s ease;
+}
+.contact-section{
+    width:100%;
+     height:100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  position: relative;
+  top:5rem;
+}
+.contact-title{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-title span{
+    font-size: 4rem;
+    display: block;
+    padding:2rem;
+}
+.container{
+    width:90%;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    height:80vh;
+    border-radius: 10px;
+}
+.form{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width:100%;
+    height:100%;
+    display: flex;   
+    justify-content:center;
+    flex-direction: column;
+    align-items:;
+    background-color:blue;
+}
+.input-group{
+    background-color:red;
+}
